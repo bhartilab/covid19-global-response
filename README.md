@@ -10,7 +10,7 @@ This repository contains code for data acquisition, preprocessing, and analysis 
 
 Contains all code used in data acquisition, preprocessing, and analysis.
 
-* `clip-rasters.py`: Clips Geotiff files to a defined areas of interest. Used to clip OMI/Aura nitrogen dioxide and Aqua/AIRS carbon monoxide data.
+* `clip-rasters.py`: Clips GeoTiff files to a defined areas of interest. Used to clip OMI/Aura nitrogen dioxide and Aqua/AIRS carbon monoxide data.
 * `download-ges-order.py`: Download a GES DISC web order. Used to acquire OMI/Aura nitrogen dioxide and Aqua/AIRS carbon monoxide data.
 * `download-laads-order.py`: Download a LAADS web order. Used to acquire VIIRS nighttime lights data.
 * `mosaic-and-clip-rasters.py`: Mosaicks and clips GeoTiff files. Used to mosaick and clip VIIRS nighttime lights data.
