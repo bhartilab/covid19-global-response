@@ -10,7 +10,7 @@
    - Creates export metadata; and,
    - Exports preprocessed radiance to GeoTiff format.
 
- This scripts runs within the Conda environment specified in the
+ This script runs within the Conda environment specified in the
  'environment-py37.yml' file.
 -------------------------------------------------------------------------------
  Author:  Cale Kochenour

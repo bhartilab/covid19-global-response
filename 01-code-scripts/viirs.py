@@ -13,6 +13,8 @@
 
    - https://ladsweb.modaps.eosdis.nasa.gov/search/order/1/VNP46A2--5000
 
+ This module is used within the Conda environment specified in the
+ 'environment-py37.yml' file.
 -------------------------------------------------------------------------------
  Author:  Cale Kochenour
  Contact: cxk525@psu.edu
@@ -359,7 +361,9 @@ def preprocess_vnp46a2(hdf5_path, output_folder):
 
         print("Applying scale factor...")
         # Apply scale factor to radiance values
-        dnb_brdf_corrected_ntl_scaled = dnb_brdf_corrected_ntl.astype("float") * 0.1
+        dnb_brdf_corrected_ntl_scaled = (
+            dnb_brdf_corrected_ntl.astype("float") * 0.1
+        )
 
         print("Masking for fill values...")
         # Mask radiance for fill value (dnb_brdf_corrected_ntl == 65535)
@@ -437,6 +441,8 @@ def preprocess_vnp46a2(hdf5_path, output_folder):
     except Exception as error:
         message = print(f"Preprocessing failed: {error}\n")
     else:
-        message = print(f"Completed preprocessing: {os.path.basename(hdf5_path)}\n")
+        message = print(
+            f"Completed preprocessing: {os.path.basename(hdf5_path)}\n"
+        )
 
     return message
