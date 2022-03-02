@@ -14,7 +14,7 @@ Contains all code used in data acquisition, preprocessing, and analysis.
 * `download-ges-order.py`: Download a GES DISC web order. Used to acquire OMI/Aura nitrogen dioxide and Aqua/AIRS carbon monoxide data.
 * `download-laads-order.py`: Download a LAADS web order. Used to acquire VIIRS nighttime lights data.
 * `mosaic-and-clip-rasters.py`: Mosaicks and clips GeoTiff files. Used to mosaick and clip VIIRS nighttime lights data.
-* `mosaics.py`: Module containing a function for mosaicking VIIRS nighttime lights data.
+* `mosaics.py`: Module containing a function used while mosaicking VIIRS nighttime lights data.
 * `preprocess-nitrogen-dioxide.py`: Preprocess OMI/Aura nitrogen dioxide data.
 * `preprocess-carbon-monoxide.py`: Preprocess Aqua/AIRS carbon monoxide data.
 * `preprocess-nighttime-lights.py`: Preprocess VIIRS nighttime lights data.
