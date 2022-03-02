@@ -43,6 +43,9 @@
                    absolute)
 
  This script requires that 'wget' is installed on the local machine.
+
+ This script runs within the Conda environment specified in the
+ 'environment-py38.yml' file.
 -------------------------------------------------------------------------------
  Author:  Cale Kochenour
  Contact: cxk525@psu.edu

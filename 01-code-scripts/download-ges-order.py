@@ -16,13 +16,16 @@
 
    - https://disc.gsfc.nasa.gov/datasets/AIRS3STD_7.0/summary
 
-  User accounts can be created here:
+ User accounts can be created here:
 
-    - https://urs.earthdata.nasa.gov/
+   - https://urs.earthdata.nasa.gov/
 
-  This script requires that 'wget' is installed on the local machine.
+ This script requires that 'wget' is installed on the local machine.
 
-  Run with admin to write to the '.crs_cookies' file.
+ Run with admin to write to the '.crs_cookies' file.
+
+ This script runs within the Conda environment specified in the
+ 'environment-py38.yml' file.
 -------------------------------------------------------------------------------
  Author:  Cale Kochenour
  Contact: cxk525@psu.edu
