@@ -13,7 +13,7 @@
 import datetime as dt
 
 
-def julian_to_gregorian(date: str):
+def julian_to_gregorian(date):
     """Converts Julian date (YYYJJJ) to Gregorian date (YYYYMMDD).
 
     Parameters
