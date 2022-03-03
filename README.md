@@ -24,6 +24,6 @@ Contains all code used in data acquisition, preprocessing, and analysis.
 
 Contains information required to create the Conda environment for preprocessing VIIRS nighttime lights data, using Python 3.7.6.
 
-### `environment-py37.yml`
+### `environment-py38.yml`
 
 Contains information required to create the Conda environment for all other data acquisition and preprocessing tasks, using Python 3.8.10.
